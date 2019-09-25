@@ -1,3 +1,5 @@
+Here we provide fast C++ and CUDA implementations of kaleidoscope matrix multiplication.
+
 ## Requirements
 Python 3.6+  
 PyTorch >=1.2
@@ -17,6 +19,6 @@ python setup.py install
 cd butterfly/factor_multiply_fast
 python setup.py install
 ```
-Without the C++/CUDA version, kaleidoscope multiplication is still usable, but is
+Without the C++/CUDA version installed, kaleidoscope multiplication is still usable, but is
 quite slow. The variable `use_extension` in `butterfly/butterfly_multiply.py`
 controls whether to use the C++/CUDA version or the pure PyTorch version.
